@@ -1,6 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <style>
+            /* Tag name selector */
+            h1 {
+                font-size: 40px;
+            }
+
+            /* Id selector */
+            #menu-title {
+                font-size: 20px;
+            }
+
+            /* Class selector */
+            .btn {
+                background-color: brown;
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                text-transform: uppercase;
+                border-radius: 10px;
+                margin-top: 30px;
+            }
+
+            .bold {
+                font-weight: bold;
+            }
+
+            /* Grouping Selector */
+            h3.bold, h4, #paragrafo-no-centro {
+                text-align: center;
+            }
+
+            p.bold {
+                background-color: green;
+            }
+
+            /* Universal selector */
+            * {
+                color: blueviolet;
+            }
+        </style>
+    </head>
     <body>
         <!-- INLINE -->
         <h1 style="color: blue">Título da notícia</h1>
@@ -10,6 +51,42 @@
         <p style="background-color: red; color: white;">Esta é a descrição da notícia</p>
 
         <h1>Título da notícia</h1>
-        <p style="background-color: blue; color: white; height: 300px;">Esta é a descrição da notícia</p>
+        <p style="background-color: blue; color: white; height: 300px;">Esta é a descrição da notícia. </p>
+
+        <!-- INTERNAL -->
+        <h2 id="menu-title">Menu</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <p>Este elemento irá na proxima linha. <span>Este ficará na mesma linha</span> <a href="page2.html">Pagina 2</a></p>
+        <div style="margin-top: 30px;">
+            <a href="page1.html" class="btn bold">Ir para a página 1</a>
+            <a href="page1.html" class="btn">Ir para a página 1</a>
+        </div>
+        <h3>teste</h3>
+        <h3 class="bold">Titulo h3</h3>
+        <h4>Titulo h4</h4>
+        <p id="paragrafo-no-centro" class="bold">Paragrafo no centro</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </body>
 </html>
