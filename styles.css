@@ -28,3 +28,47 @@ nav ~ div {
     color: white;
     padding: 30px;
 }
+
+nav div {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+nav div:hover {
+    background-color: purple;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px red;
+}
+
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px blue;
+}
+
+input[type="text"]:disabled {
+    background-color: gray;
+}
+
+p:empty {
+    background-color: red;
+    width: 100px;
+    height: 20px;
+}
+
+input[type="number"]::placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+article h4::first-letter {
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+article h4 {
+    background-color: red;
+}
